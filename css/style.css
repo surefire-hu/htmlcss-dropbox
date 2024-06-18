@@ -443,3 +443,75 @@ padding: 60px 50px 0;
 
 /* fine sotto business */
 
+/* domande */
+section.questions {
+    padding: 160px 0;
+}
+
+.questions .second-container h2 {
+    padding-bottom: 75px;
+}
+
+.questions .second-container div.flex-between {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+/* fine domanda */
+
+/* footer */
+footer {
+    background-color: var(--bg-color6);
+}
+
+footer .foot-container .flex-n div.foot-col {
+    width: calc(( 100% - 200px) / 5);
+    color: var(--bg-color5);
+}
+
+footer .foot-container .foot-col > a.link-footer {
+    all: unset;
+    font-weight: lighter;
+    font-size: 12px;
+    display: block;
+}
+
+footer hr {
+    width: 120px;
+}
+
+footer .foot-container .foot-col > h3 {
+    padding-bottom: 30px;
+}
+
+footer .foot-container .foot-col > a.link-footer {
+    padding-bottom: 20px;
+}
+
+footer .foot-container .flex-n {
+    padding: 100px 0 100px;
+}
+
+footer div.flex-n{
+    align-items: flex-start;
+    gap: 50px;
+}
+
+footer a.link-footer {
+    color: var(--bg-color5);
+}
+
+footer .footer-bottom .language div.flex-n {
+    align-items: center;
+    line-height: 100%;
+    color: var(--bg-color4);
+    gap: 0;
+    padding: 50px 0;
+}
+
+footer .language .flex-n > span {
+    padding: 0 5px;
+}
