@@ -1,0 +1,303 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root color */
+:root {
+    --bg-color1: #b5d0e7;
+
+    --bg-color2: #0061ff;
+
+    --bg-color3: #61072B;
+
+    --bg-color4: #d0d0d3;
+
+    --bg-color5: #ffffff;
+
+    --bg-color6: #000000;
+}
+/* general */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-container,
+.foot-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a, p, .text, h4 {
+    font-size: 14px;
+}
+
+.text {
+    display: block;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.small {
+    width: 30%;
+}
+
+.big {
+    width: 70%;
+}
+/* navbar */
+header {
+    height: 5rem;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--bg-color5);
+}
+
+.flex {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-n {
+    display: flex;
+}
+
+ul > li {
+    list-style-type: none;
+    transition: all .5s ease-in-out;
+}
+
+ li:not(.logo):not(.btn) a:hover {
+    color: var(--bg-color2);
+}
+
+.left-navbar {
+    display: flex;
+}
+
+.right-navbar {
+    display: flex;
+    padding: 0 20px 0 0;
+    align-items: center;
+}
+
+header li a,
+header li img {
+    color: var(--bg-color6);
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+}
+
+li.btn > a {
+    color: var(--bg-color5);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    all: unset;
+    display: inline-block;
+    font-size: .8rem;
+    background-color: var(--bg-color2);
+    color: var(--bg-color5);
+    padding: 10px 18px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* 1-sezione */
+.container-blue {
+    background-color: var(--bg-color1);
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.container-blue .main-container .flex-n > div.small {
+    padding-right: 50px;
+}
+
+main .small .icon {
+    margin: 80px 0 20px;
+    font-size: 35px;
+}
+
+.container-blue a.btn {
+    margin: 35px 0 50px;
+}
+
+.container-blue .main-container{
+    position: relative;
+    bottom: -5rem;
+}
+
+/* 2-sezione */
+
+.second-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-plane {
+    padding-top: 180px;
+}
+
+.section-plane .second-container div.input.flex-n {
+    padding: 70px 0 50px;
+}
+
+main .offert.flex-n {
+    gap: 50px;
+}
+
+div.col-1{
+    width: calc((100% - 100px) / 3);
+}
+
+div.second-container div.top-col {
+    padding: 10px 0;
+    text-align: center;
+}
+
+div.second-container div.bottom-col {
+    padding: 40px 40px 35px;
+}
+
+div.second-container .bottom-col h3 {
+    margin-bottom: 25px;
+}
+
+.bottom-col span.period {
+    display: inline-block;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+ul.details {
+    padding-top: 30px;
+}
+
+div.second-container .bottom-col ul li {
+    padding-top: 20px;
+}
+
+section .section-plane .second-container .bottom-col .text {
+    margin: 20px 0 40px;
+}
+
+div.second-container .bottom-col span.text-icon {
+    line-height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+div.info-plane {
+    height: 320px;
+}
+
+.details-fleg li.flex-n > i{
+    color: var(--bg-color2);
+    align-items: flex-start;
+}
+
+.bottom-col > a.btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
+}
+
+li.flex-n > span {
+    padding-left: 7px;
+}
+
+.bottom-col > hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 20%;
+}
+
+.btn-shop {
+    color: var(--bg-color2);
+}
+
+div.offert > .col-1 {
+    border: 1px solid var(--bg-color4);
+}
+
+div.offert .col-1 > .top-col {
+    border-bottom: 1px solid var(--bg-color4);
+}
+
+div.offert.flex-n {
+    flex-wrap: wrap;
+}
+
+.offert > div.bottom-col{
+    height: 100%;
+}
+
+.offert.flex-n .col-1.text:last-child {
+    flex-grow: 2;
+}
+
+.offert .col-1:last-child .bottom-col .small {
+   text-align: end;
+}
+
+.offert .col-1:last-child .bottom-col .big {
+    padding-right: 50px;
+}
+
+.bottom-col.flex-n > .big > h4 {
+    margin-bottom: 50px;
+}
+
+.partner .big {
+    width: 600px;
+}
+
+.partner .small {
+    flex-grow: 2;
+    padding-left: 40px;
+}
+
+.partner .small > p {
+    padding-top: 20px;
+}
+
+.partner div.second-container{
+    padding: 145px 0 150px;
+}
+
+.partner .second-container .small a.btn.second-btn {
+    background-color: var(--bg-color5);
+    border: 1px solid var(--bg-color6);
+    color: var(--bg-color6);
+    margin-top: 35px;
+}
+
+.partner .second-container .flex-n .small {
+padding: 60px 50px 0;
+}
