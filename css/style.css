@@ -418,3 +418,28 @@ padding: 60px 50px 0;
 .brands .bg-gray {
     background-color: #F5F5F5
 }
+ /* fine sezione 5 */
+
+ /* sotto business */
+ section.business-bottom {
+    background-color: var(--bg-color1);
+    padding: 120px 0;
+}
+
+.business-bottom .second-container.flex-n div.big {
+    color: var(--bg-color3);
+}
+
+.business-bottom .second-container.flex-n div.small {
+    flex-grow: 2;
+    text-align: end;
+    padding-top: 15px;
+}
+
+.business-bottom .second-container .flex-n .small a.btn {
+    background-color: var(--bg-color5);
+    color: var(--bg-color6);
+}
+
+/* fine sotto business */
+
