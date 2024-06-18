@@ -301,3 +301,120 @@ div.offert.flex-n {
 .partner .second-container .flex-n .small {
 padding: 60px 50px 0;
 }
+
+/* fine sezione 3 */
+
+/* sezione 4 */
+.dropbox-business .second-container h2 {
+    margin-top: 130px;
+    margin-bottom: 65px;
+}
+
+.dropbox-business .second-container .flex-n {
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.dropbox-business .flex-n div.business-tool {
+    width: calc(( 100% - 110px ) / 3);
+}
+
+.dropbox-business .flex-n .business-tool h3 {
+    margin: 20px 0 30px;
+}
+
+/* fine sezione 4 */
+
+/* sezione 5 */
+.clients {
+    margin-top: 60px;
+}
+
+.clients .brands {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3 );
+}
+
+.brands div.square.flex-n {
+    flex-wrap: wrap;
+}
+
+.brands .flex-n .customer {
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.brands .square .customer img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
+.brands .square.bg-gray > img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.brands .square.bg-gray > hr {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.brands .square.bg-gray {
+    padding: 50px;
+}
+
+.brands div.text-overflow {
+    overflow: hidden;
+}
+
+.brands .square.bg-gray > p {
+    margin-bottom: 30px;
+    overflow-y: hidden;
+}
+
+.brands .bg-green {
+    background-color: #A2D39B;
+    border: inset 5px solid #d1e9cd;
+}
+
+.brands .bg-bordeaux {
+    background-color: var(--bg-color3);
+}
+
+.brands .bg-azure {
+    background-color: #0393ce;
+}
+
+.brands .bg-orange {
+    background-color: #ff1d1c;
+}
+
+.brands .bg-red {
+    background-color: #d5001f;
+}
+
+.brands .bg-lightazure {
+    background-color: #b5d0e7;
+}
+
+.brands .bg-blu {
+    background-color: #0d2481;
+}
+
+.brands .bg-yellow {
+    background-color: #ffd831;
+}
+
+.brands .bg-gray {
+    background-color: #F5F5F5
+}
