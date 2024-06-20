@@ -167,6 +167,10 @@ main .small .icon {
     padding: 70px 0 50px;
 }
 
+div.input.flex-n label {
+    margin-right: 40px;
+}
+
 main .offert.flex-n {
     gap: 50px;
 }
